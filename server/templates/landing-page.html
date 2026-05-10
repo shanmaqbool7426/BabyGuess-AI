@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BabyGuess AI – Backend API</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #FF6B9D, #C44FD8, #818CF8);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+    .card {
+      background: rgba(255,255,255,0.15);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 28px;
+      padding: 48px 40px;
+      text-align: center;
+      max-width: 420px;
+      width: 90%;
+    }
+    .emoji { font-size: 72px; margin-bottom: 20px; }
+    h1 { font-size: 28px; font-weight: 800; margin-bottom: 8px; }
+    .sub { font-size: 15px; opacity: 0.85; margin-bottom: 32px; }
+    .badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.25);
+      border-radius: 20px;
+      padding: 6px 16px;
+      font-size: 13px;
+      margin-bottom: 28px;
+    }
+    .endpoints { text-align: left; }
+    .endpoint {
+      background: rgba(0,0,0,0.15);
+      border-radius: 12px;
+      padding: 12px 16px;
+      margin-bottom: 10px;
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+    }
+    .method { font-weight: 700; opacity: 0.8; }
+    .disclaimer {
+      margin-top: 24px;
+      font-size: 11px;
+      opacity: 0.7;
+      line-height: 1.6;
+      border-top: 1px solid rgba(255,255,255,0.2);
+      padding-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="emoji">👶</div>
+    <h1>BabyGuess AI</h1>
+    <p class="sub">Backend API Server</p>
+    <div class="badge">✅ Server Running</div>
+    <div class="endpoints">
+      <div class="endpoint"><span class="method">POST</span> /api/predict</div>
+      <div class="endpoint"><span class="method">GET &nbsp;</span> /api/history</div>
+      <div class="endpoint"><span class="method">GET &nbsp;</span> /api/health</div>
+    </div>
+    <p class="disclaimer">
+      ⚠️ This is an AI entertainment prediction based on traditional pregnancy myths and patterns.
+      It is NOT medically accurate and should not be used as a substitute for medical advice.
+    </p>
+  </div>
+</body>
+</html>

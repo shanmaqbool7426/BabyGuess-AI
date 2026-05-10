@@ -1,0 +1,223 @@
+Build a FULL modern AI-powered mobile app called “BabyGuess AI” using React Native + Expo for frontend, Node.js + Express for backend, and MongoDB database.
+
+APP CONCEPT:
+This app is a FUN AI entertainment app that predicts whether the baby may be a boy or girl based on traditional pregnancy symptoms, cravings, mood patterns, body changes, and lifestyle-related questions.
+
+IMPORTANT:
+The app MUST clearly display:
+“This is an AI entertainment prediction based on traditional pregnancy myths and patterns. It is NOT medically accurate.”
+
+====================================
+MAIN FEATURES
+====================================
+
+1. BEAUTIFUL ONBOARDING
+- Soft feminine modern UI
+- Pregnancy themed gradients
+- Smooth animations
+- Cute icons
+- Multi-language support
+- Urdu + English support
+
+====================================
+2. AI QUESTION FLOW
+====================================
+
+The app asks interactive questions like:
+
+CRAVINGS:
+- Do you crave sweets or salty food?
+- Do you want spicy food often?
+- Do you drink more cold drinks?
+
+MOOD:
+- Emotional mood swings?
+- Calm or angry behavior?
+- Stress level?
+
+BODY CHANGES:
+- Morning sickness?
+- Face glow?
+- Hair texture changes?
+- Skin acne?
+
+ENERGY:
+- Feeling active or lazy?
+- Sleeping more?
+
+BELLY SHAPE:
+- Belly appears high or low?
+- Round or pointed?
+
+WALKING STYLE:
+- Walking slower?
+- Back pain while walking?
+
+The app should have:
+- Multiple choice answers
+- Sliders
+- Emoji reactions
+- Progress indicator
+- Smooth transitions
+
+====================================
+3. AI PREDICTION ENGINE
+====================================
+
+Backend creates a weighted scoring system.
+
+Example:
+- Sweet cravings increase girl probability
+- Salty cravings increase boy probability
+- High energy slightly increases boy probability
+- Emotional mood increases girl probability
+
+The app calculates:
+- Boy score
+- Girl score
+- Confidence percentage
+
+Then returns:
+“Possible Baby Girl 👧”
+or
+“Possible Baby Boy 👦”
+
+with confidence percentage.
+
+====================================
+4. BEAUTIFUL RESULT SCREEN
+====================================
+
+Show:
+- AI prediction
+- Confidence %
+- Cute animated effects
+- Generated baby avatar
+- Prediction summary
+- Share button
+
+Example:
+✨ AI Prediction Result ✨
+Possible Baby Girl 👧
+Confidence: 74%
+
+Based on:
+• Sweet cravings
+• Emotional mood
+• Face glow
+• Belly shape
+
+====================================
+5. AI GENERATED BABY AVATAR
+====================================
+
+Generate:
+- Cartoon baby avatar
+- Cute baby illustration
+- Boy or girl themed avatar
+
+Optional:
+- Generate realistic future baby image using AI APIs
+
+====================================
+6. SHAREABLE SOCIAL CARDS
+====================================
+
+Generate Instagram/TikTok style result cards:
+- Pink/blue themes
+- Cute typography
+- Download option
+- Share to WhatsApp, Instagram, TikTok
+
+====================================
+7. USER ACCOUNT SYSTEM
+====================================
+
+Authentication:
+- Email login
+- Google login
+- Guest mode
+
+User can:
+- Save predictions
+- Retake quizzes
+- Track previous results
+
+====================================
+8. PREMIUM FEATURES
+====================================
+
+Premium users get:
+- Unlimited predictions
+- HD baby avatars
+- AI future baby image generation
+- Weekly prediction updates
+- Advanced personality prediction
+
+====================================
+9. ADMIN PANEL
+====================================
+
+Admin dashboard:
+- User analytics
+- Prediction stats
+- Premium subscriptions
+- Content management
+- Question management
+
+====================================
+10. TECH STACK
+====================================
+
+Frontend:
+- React Native + Expo
+- React Navigation
+- Zustand or Redux Toolkit
+- React Native Reanimated
+- Lottie animations
+
+Backend:
+- Node.js
+- Express.js
+- MongoDB
+- JWT Authentication
+
+AI & IMAGE:
+- OpenAI API or Gemini API
+- Stability AI / SDXL for baby avatar generation
+
+====================================
+11. UI STYLE
+====================================
+
+Design should be:
+- Viral
+- Modern
+- Elegant
+- Cute
+- Smooth animations
+- Glassmorphism cards
+- Soft shadows
+- Pink/Blue gradients
+- Premium mobile app feeling
+
+====================================
+12. EXTRA FEATURES
+====================================
+
+- Daily pregnancy tips
+- AI baby name suggestions
+- Pregnancy tracker
+- Dark mode
+- Notifications
+- Urdu voice support
+
+====================================
+13. IMPORTANT RULES
+====================================
+
+- Must NOT claim medical accuracy
+- Must mention entertainment purpose
+- Must optimize for viral social sharing
+- Must feel premium and emotional
+- Must work smoothly on Android and iPhone
